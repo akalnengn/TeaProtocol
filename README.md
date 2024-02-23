@@ -29,7 +29,3 @@ This project is licensed under the MIT License.
 If you would like to contribute to the project, please review the Contribution Guidelines.
 
 Project Purpose: The purpose of this project is to provide a user-friendly interface for accessing and exploring PCI ID information. It simplifies the process of fetching and presenting data from the PCI ID database.
-
-Project Beauty: The readme file has been aesthetically enhanced using CSS to ensure a visually pleasing and organized presentation.
-
-Note: Make sure to review the Contribution Guidelines if you plan to contribute to the project.
