@@ -1,7 +1,7 @@
 # PCI ID Information Fetcher
 This Node.js application serves as a PCI ID information fetcher, allowing users to retrieve and explore information from the PCI ID database.
 
-###### Getting Started
+## Getting Started
 To set up and run the project, follow the steps outlined below.
 
 ## Prerequisites
