@@ -1,12 +1,18 @@
 {
   "name": "tea_protocol",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tea Protocol: A project for fetching and presenting PCI ID information.",
+  "main": "Atth.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["pci", "pci-id", "teaprotocol"],
+  "author": "Engin Akalın",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.6"
+  }
 }
