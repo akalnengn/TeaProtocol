@@ -1,5 +1,5 @@
 const fs = require('fs');
-const https = require('https'); // Eksik olan https modülünü ekledik
+const https = require('https');
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 
@@ -104,7 +104,7 @@ class PCIIds {
     }
 
     latestVersion() {
-        const webPage = https.getSync(this.url).toString().split('\n');
+        const webPage = require('https').getSync(this.url).toString().split('\n');
         for (const line of webPage) {
             if (line.includes(this.compressed)) {
                 for (const tag of line.split('<')) {
